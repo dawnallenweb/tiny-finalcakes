@@ -11,16 +11,34 @@
 .about {
 	background-color: #FEF8F8;
 	text-transform: uppercase;
+	padding-top: 20px;
 	font-family: 'Raleway', sans-serif ;
 }
 .history {
 	background-color: #6ba56f;
 	font-family: 'Raleway', sans-serif ;
+	padding-top: 20px;
 	color: #fff;
 	text-transform: uppercase;
 }
-.customize, .cookies, .card{
+.card {
+	font-family: 'Raleway', sans-serif 
+}
+.customize, .cookies {
 	font-family: 'Raleway', sans-serif ;
+	padding: 20px;
+	margin-top: 120px;
+}
+.customize {
+	font-family: 'Raleway', sans-serif ;
+	padding: 20px;
+	margin-top: 80px;
+}
+.customize h2{
+	font-family:'lobster', cursive;
+	text-align: center;
+	font-weight: 300;
+	font-style: italic;
 }
 .ghost-button {
 	text-decoration: none;
@@ -41,12 +59,13 @@
 	-webkit-box-shadow: 0px 2px 1px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow:    0px 2px 1px rgba(50, 50, 50, 0.75);
 	box-shadow:         0px 2px 1px rgba(50, 50, 50, 0.75);
-
 }
 .button{
 	color: rgb(230, 230, 255);
 	font-size: 18px;
-	padding: 12px;
+	padding: 1px;
+	margin-right: 60px;
+	margin-top: 120px;
 	text-shadow: 0px -1px 0px rgba(30, 30, 30, 0.8);
 	background: rgb(188, 156, 255);
 	background: -moz-linear-gradient(90deg, rgb(188, 156, 255) 100%, rgb(250, 20, 20) 70%);
